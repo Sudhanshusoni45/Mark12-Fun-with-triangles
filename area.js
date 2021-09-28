@@ -13,5 +13,5 @@ function calculateArea() {
   area = (heightValue * baseValue) / 2;
   console.log("area:", area);
 
-  divOutput.innerText = area;
+  divOutput.innerText = "Area of the Triangle is : " + area;
 }

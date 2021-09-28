@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
+    <nav class="navigation">
       <a href="index.html">IsTriangle</a>
       <a href="quiz.html">Triangle Quiz</a>
       <a href="hypotenuse.html">Calculate Hypotenuse</a>
@@ -33,7 +34,10 @@
       </div>
 
       <div class="question-container">
-        <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+        <p>
+          Question1: If a triangle has an angle of 90 degrees, what is it
+          called?
+        </p>
         <label for="">
           <input type="radio" name="question2" value="Obtuse" />Obtuse</label
         >
@@ -46,8 +50,24 @@
         >
       </div>
     </form>
-    <button id="btn-submit-answer">Submit Answer</button>
-    <div id="div-output"></div>
+    <button id="btn-submit-answer" class="btn-primary">Submit Answer</button>
+    <div id="div-output" class="div-output"></div>
     <script src="quiz.js"></script>
   </body>
+  <footer>
+    <div class="footer-header">Socials</div>
+    <ul class="list-non-bullet">
+      <li class="list-inline">
+        <a class="link" href="https://github.com/Sudhanshusoni45"> Github</a>
+      </li>
+      <li class="list-inline">
+        <a class="link" href="https://twitter.com/sudhanshusoni__"> Twitter</a>
+      </li>
+      <li class="list-inline">
+        <a class="link" href="https://www.linkedin.com/in/sudhanshu-soni/">
+          LinkedIn</a
+        >
+      </li>
+    </ul>
+  </footer>
 </html>

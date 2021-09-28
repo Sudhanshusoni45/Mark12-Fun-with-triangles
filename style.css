@@ -6,6 +6,7 @@
 
 body {
   text-align: center;
+  margin: 0px;
 }
 
 li {
@@ -50,7 +51,7 @@ input {
   color: white;
   border: 1px;
   background-color: var(--primary-color);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   margin: 1rem;
 }
 
@@ -78,9 +79,15 @@ footer ul {
   font-size: large;
 }
 input {
-  border-radius: 3px;
+  border-radius: 5px;
+  padding: 0.2rem 1rem;
 }
 
 .footer-header {
   font-size: x-large;
+}
+
+.div-output {
+  font-size: x-large;
+  padding: 1rem;
 }
