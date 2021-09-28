@@ -5,27 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Area of Triangle</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <a href="index.html">IsTriangle</a>
-    <a href="quiz.html">Triangle Quiz</a>
-    <a href="hypotenuse.html">Calculate Hypotenuse</a>
-    <a href="area.html">Calculate Area</a>
-  </nav>
+    <nav class="navigation">
+      <a href="index.html">IsTriangle</a>
+      <a href="quiz.html">Triangle Quiz</a>
+      <a href="hypotenuse.html">Calculate Hypotenuse</a>
+      <a href="area.html">Calculate Area</a>
+    </nav>
+    <div class="container-center">
+      <div>
+        <h1 class="hero-header">Calculate Area of a Triangle</h1>
+        <label for="">Enter Height :</label>
+        <div><input type="number" id="input-height" /></div>
+        <label for="">Enter Base :</label>
+        <div><input type="number" id="input-base" /></div>
 
-  <div>
-      <h1>Calculate Area of a Triangle</h1>
-      <label for="">Enter Height</label>
-      <input type="number" id="input-height">
-      <label for="">Enter Base</label>
-      <input type="number" id="input-base">
+        <button id="btn-calculate-area" class="btn-primary">
+          Calculate Area
+        </button>
+      </div>
+      <div id="div-output"></div>
 
-<button id="btn-calculate-area" >Calculate Area</button>
-
+      <script src="area.js"></script>
     </div>
-    <div id="div-output"></div>
-
-
-    <script src="area.js"></script>
   </body>
+  <footer>
+    <div class="footer-header">Socials</div>
+    <ul class="list-non-bullet">
+      <li class="list-inline"><a class="link" href="/"> Github</a></li>
+      <li class="list-inline"><a class="link" href="/"> Twitter</a></li>
+      <li class="list-inline"><a class="link" href="/"> LinkedIn</a></li>
+    </ul>
+  </footer>
 </html>
